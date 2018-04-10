@@ -19,7 +19,6 @@ for line in f:
         s = np.add(s,word.vector)
     output = str(s).replace('\n', ' ') + '\t' + split[0]
     d.write(output)
-    ernt(output)
     d.write('\n')
 f.close()
 d.close()
