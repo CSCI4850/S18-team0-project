@@ -2,9 +2,11 @@
 # Example use of spaCy to build a review vector
 import spacy
 import numpy as np
+import sys
+filename = sys.argv[1]
 # Load Spacy's word vectors
 nlp = spacy.load('en_core_web_lg')
-f = open('reviewsToys.txt','r')
+f = open(filename,'r')
 d = open('data.txt', 'a+')
 for line in f:
     split = line.rstrip().split('\t',1)
