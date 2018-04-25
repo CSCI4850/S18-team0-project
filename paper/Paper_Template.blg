@@ -8,52 +8,77 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: References.bib
+Warning--I didn't find a database entry for "b5"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--empty note in b4
-Warning--empty year in b5
+Too many commas in name 1 of "Shrestha, P., Sierra, S., Gonzalez, F., Montes, M., Rosso, P. and Solorio, T." for entry b3
+while executing---line 2405 of file IEEEtran.bst
+Too many commas in name 1 of "Shrestha, P., Sierra, S., Gonzalez, F., Montes, M., Rosso, P. and Solorio, T." for entry b3
+while executing---line 2405 of file IEEEtran.bst
+Too many commas in name 1 of "Shrestha, P., Sierra, S., Gonzalez, F., Montes, M., Rosso, P. and Solorio, T." for entry b3
+while executing---line 2405 of file IEEEtran.bst
+Too many commas in name 1 of "Shrestha, P., Sierra, S., Gonzalez, F., Montes, M., Rosso, P. and Solorio, T." for entry b3
+while executing---line 2405 of file IEEEtran.bst
+Too many commas in name 1 of "Shrestha, P., Sierra, S., Gonzalez, F., Montes, M., Rosso, P. and Solorio, T." for entry b3
+while executing---line 2405 of file IEEEtran.bst
+Too many commas in name 1 of "Shrestha, P., Sierra, S., Gonzalez, F., Montes, M., Rosso, P. and Solorio, T." for entry b3
+while executing---line 2405 of file IEEEtran.bst
+Too many commas in name 1 of "Shrestha, P., Sierra, S., Gonzalez, F., Montes, M., Rosso, P. and Solorio, T." for entry b3
+while executing---line 2405 of file IEEEtran.bst
+Name 1 in "Mikolov, T., Sutskever, I., Chen, K., Corrado, G.S., and Dean, J." has a comma at the end for entry b4
+while executing---line 2405 of file IEEEtran.bst
+Too many commas in name 1 of "Mikolov, T., Sutskever, I., Chen, K., Corrado, G.S., and Dean, J." for entry b4
+while executing---line 2405 of file IEEEtran.bst
+Too many commas in name 1 of "Mikolov, T., Sutskever, I., Chen, K., Corrado, G.S., and Dean, J." for entry b4
+while executing---line 2405 of file IEEEtran.bst
+Too many commas in name 1 of "Mikolov, T., Sutskever, I., Chen, K., Corrado, G.S., and Dean, J." for entry b4
+while executing---line 2405 of file IEEEtran.bst
+Too many commas in name 1 of "Mikolov, T., Sutskever, I., Chen, K., Corrado, G.S., and Dean, J." for entry b4
+while executing---line 2405 of file IEEEtran.bst
+Too many commas in name 1 of "Mikolov, T., Sutskever, I., Chen, K., Corrado, G.S., and Dean, J." for entry b4
+while executing---line 2405 of file IEEEtran.bst
 
 Done.
-You've used 5 entries,
+You've used 4 entries,
             4087 wiz_defined-function locations,
-            848 strings with 7871 characters,
-and the built_in function-call counts, 3232 in all, are:
-= -- 261
-> -- 62
-< -- 29
-+ -- 36
-- -- 9
-* -- 162
-:= -- 516
-add.period$ -- 10
-call.type$ -- 5
-change.case$ -- 5
-chr.to.int$ -- 69
-cite$ -- 7
-duplicate$ -- 228
-empty$ -- 239
+            846 strings with 8074 characters,
+and the built_in function-call counts, 3554 in all, are:
+= -- 293
+> -- 70
+< -- 40
++ -- 44
+- -- 8
+* -- 174
+:= -- 521
+add.period$ -- 8
+call.type$ -- 4
+change.case$ -- 4
+chr.to.int$ -- 102
+cite$ -- 4
+duplicate$ -- 236
+empty$ -- 251
 format.name$ -- 12
-if$ -- 725
+if$ -- 818
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 34
-newline$ -- 38
-num.names$ -- 5
-pop$ -- 75
+int.to.str$ -- 4
+missing$ -- 30
+newline$ -- 35
+num.names$ -- 4
+pop$ -- 66
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 243
+skip$ -- 273
 stack$ -- 0
-substring$ -- 166
-swap$ -- 183
+substring$ -- 242
+swap$ -- 210
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 5
-warning$ -- 2
-while$ -- 16
-width$ -- 6
-write$ -- 65
-(There were 2 warnings)
+type$ -- 4
+warning$ -- 0
+while$ -- 18
+width$ -- 5
+write$ -- 60
+(There were 13 error messages)

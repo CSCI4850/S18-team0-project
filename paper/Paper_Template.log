@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.31)  24 APR 2018 22:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.31)  24 APR 2018 22:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -420,10 +420,10 @@ Underfull \hbox (badness 5316) in paragraph at lines 65--67
 <regular_Doc2Vec.png, id=10, 586.19pt x 155.58125pt>
 File: regular_Doc2Vec.png Graphic file (type png)
  <use regular_Doc2Vec.png>
-Package pdftex.def Info: regular_Doc2Vec.png used on input line 121.
+Package pdftex.def Info: regular_Doc2Vec.png used on input line 109.
 (pdftex.def)             Requested size: 258.0pt x 68.47495pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 121--122
+Overfull \hbox (6.0pt too wide) in paragraph at lines 109--110
  [][] 
  []
 
@@ -434,17 +434,17 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: reversed_Doc2Vec.png Graphic file (type png)
 
 <use reversed_Doc2Vec.png>
-Package pdftex.def Info: reversed_Doc2Vec.png used on input line 135.
+Package pdftex.def Info: reversed_Doc2Vec.png used on input line 123.
 (pdftex.def)             Requested size: 258.0pt x 67.47658pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 135--136
+Overfull \hbox (6.0pt too wide) in paragraph at lines 123--124
  [][] 
  []
 
 <custom.png, id=13, 513.92pt x 145.54375pt>
 File: custom.png Graphic file (type png)
  <use custom.png>
-Package pdftex.def Info: custom.png used on input line 150.
+Package pdftex.def Info: custom.png used on input line 138.
 (pdftex.def)             Requested size: 232.19843pt x 65.76057pt.
 
 <CNN_DENSE_OVERSAMPLING_RESULTS_3_AUTHORS.PNG, id=14, 328.97906pt x 249.18094pt
@@ -452,7 +452,7 @@ Package pdftex.def Info: custom.png used on input line 150.
 File: CNN_DENSE_OVERSAMPLING_RESULTS_3_AUTHORS.PNG Graphic file (type png)
  <use CNN_DENSE_OVERSAMPLING_RESULTS_3_AUTHORS.PNG>
 Package pdftex.def Info: CNN_DENSE_OVERSAMPLING_RESULTS_3_AUTHORS.PNG used on i
-nput line 169.
+nput line 157.
 (pdftex.def)             Requested size: 232.19843pt x 175.87788pt.
 
 
@@ -465,7 +465,7 @@ File: CNN_DENSE_3_REGULARIZERS_OVERSAMPLING_RESULTS.PNG Graphic file (type png)
 
  <use CNN_DENSE_3_REGULARIZERS_OVERSAMPLING_RESULTS.PNG>
 Package pdftex.def Info: CNN_DENSE_3_REGULARIZERS_OVERSAMPLING_RESULTS.PNG used
- on input line 177.
+ on input line 165.
 (pdftex.def)             Requested size: 232.19843pt x 181.79538pt.
 
 
@@ -477,11 +477,14 @@ t>
 File: CNN_DENSE_OVERSAMPLING_RESULTS_35_AUTHORS.PNG Graphic file (type png)
  <use CNN_DENSE_OVERSAMPLING_RESULTS_35_AUTHORS.PNG>
 Package pdftex.def Info: CNN_DENSE_OVERSAMPLING_RESULTS_35_AUTHORS.PNG used on 
-input line 191.
+input line 179.
 (pdftex.def)             Requested size: 232.19843pt x 174.02188pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `b5' on page 3 undefined on input line 192.
 
 (./Paper_Template.bbl)
 
@@ -497,21 +500,25 @@ Before submitting the final camera ready copy, remember to:
 
 [3 <./CNN_DENSE_OVERSAMPLING_RESULTS_3_AUTHORS.PNG> <./CNN_DENSE_3_REGULARIZERS
 _OVERSAMPLING_RESULTS.PNG> <./CNN_DENSE_OVERSAMPLING_RESULTS_35_AUTHORS.PNG>]
-(./Paper_Template.aux) ) 
+(./Paper_Template.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3975 strings out of 493013
- 59691 string characters out of 6135682
- 124351 words of memory out of 5000000
- 7451 multiletter control sequences out of 15000+600000
- 39475 words of font info for 80 fonts, out of 8000000 for 9000
+ 3972 strings out of 493013
+ 59665 string characters out of 6135682
+ 125348 words of memory out of 5000000
+ 7447 multiletter control sequences out of 15000+600000
+ 40582 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,10n,26p,1613b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.
-enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf
--dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/urw/times/utmri8a.pfb>
-Output written on Paper_Template.pdf (3 pages, 182418 bytes).
+ 39i,10n,26p,1623b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.p
+fb>
+Output written on Paper_Template.pdf (3 pages, 182553 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
