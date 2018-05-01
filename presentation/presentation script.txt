@@ -1,0 +1,28 @@
+Introduction:
+Our project was over Authorship Attribution for Small Documents.
+
+--introduce ourselves and our roles in the group
+
+Authorship Attribution is the process of determining the author of a document by means of analyzing the text.
+With the rise in popularity of programs such as Twitter, Facebook, email, and messaging apps, that can instantly
+send messages around the world, the size of our documents are shrinking. Since these technologies allow for instant
+communication there is no longer a need to have large ammounts of information in our documents. Think of the last
+message you sent, I would be suprised if it was more than a sentence. 
+
+For all the good these technologies bring there is a dark side to them as well. Most of the programs offer a 
+means of psuedo-privacy which can lead to problems. Some people use this anonymity to engage in cyber bullying,
+attempt to influence sales of products through leaving fake positive/negative reviews, or even using someone elses 
+account to leave hateful comments. Having the ability to tie a post to the correct person or find all fake reviews 
+left by one user, even if they have multiple accounts, is something that is important now and will only grow in 
+importance as technology continue to evolves.
+
+Authorship Attribution and Neural Networks go hand in hand as at its core Authorship Attribution is just a 
+classification problem. And as we all know by now Neural Networks are quite good at classification problems. 
+There has already been research done in using Neural Networks for Authorship Attribution, if you are interested 
+in the topic you can read more about it in the paper that inspired this project 
+http://cs.uh.edu/~prasha/papers/cnn-aa-short.pdf. The goal of our research was to find a better way to determine
+Authorship from short texts.
+
+
+-- Rob and miles go over there parts
+-- William does a Demo
