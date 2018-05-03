@@ -18,18 +18,30 @@ A full list of Python packages used when developing this project can be found at
 Once the prerequisites are installed, this project should not need any additional setup to run. Simply clone the project into a folder within an instance of Jupyter, and it should be ready to run.
 
 
-To test your install, you can find a little demo of getting some data out of a network at [DEMO.md](DEMO.md).
+End with a little demo of getting some data out of the network (will link out to DEMO.md in final version).
 
-## Running the tests
+## Running
 
-### Preparing the data
-
-
-
-
-### Running the networks
-
-
+1. Run Setup
+2. Read in the Vectors and Generate One-Hot Encodings
+* Settings
+- Authors: 3
+3. Seperate Training/Testing Sets
+4. Setup Optional Oversampling
+5. Shuffle and Reshape
+6. Choose Network
+* Networks
+- Network 1 (CNN with regularizers)
+- Network 2 (CNN)
+- Network 3 (Dense)
+7. Start Training
+* Settings
+- Batch Size: 5
+- Epochs: 5
+8. Reshape Testing Data
+9. Start Testing
+10. Show Graphs
+11. Generate Predictions
 
 
 ## Built With
