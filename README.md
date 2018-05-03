@@ -18,9 +18,18 @@ A full list of Python packages used when developing this project can be found at
 Once the prerequisites are installed, this project should not need any additional setup to run. Simply clone the project into a folder within an instance of Jupyter, and it should be ready to run.
 
 
-End with a little demo of getting some data out of the network (will link out to DEMO.md in final version).
+To test your install, you can find a little demo of getting some data out of a network at [DEMO.md](DEMO.md).
 
-## Running
+## Running the tests
+
+### Preparing the data
+
+
+
+
+### Running the networks
+
+
 
 
 ## Built With
