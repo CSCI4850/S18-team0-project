@@ -36,20 +36,20 @@ Once the prerequisites are installed, this project should not need any additiona
 
 1. Run Setup
 2. Read in the Vectors and Generate One-Hot Encodings
-  * Settings
-  * Authors: 3
-3. Seperate Training/Testing Sets
+   * Settings
+   * Authors: 3
+3. Separate Training/Testing Sets
 4. Setup Optional Oversampling
 5. Shuffle and Reshape
 6. Choose Network
-  * Networks
-  * Network 1 (CNN with regularizers)
-  * Network 2 (CNN)
-  * Network 3 (Dense)
+   * Networks
+   * Network 1 (CNN with regularizers)
+   * Network 2 (CNN)
+   * Network 3 (Dense)
 7. Start Training
-  * Settings
-  * Batch Size: 5
-  * Epochs: 5
+   * Settings
+   * Batch Size: 5
+   * Epochs: 5
 8. Reshape Testing Data
 9. Start Testing
 10. Show Graphs
