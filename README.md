@@ -20,15 +20,15 @@ Once the prerequisites are installed, this project should not need any additiona
 
 ## Preprocessing
 
-* Sample Data is in the [data](data/) folder:
-  demo\_reviews.txt
+* Sample Data is in the [data](data/) folder:  
+ demo\_reviews.txt
 * Each script in the scripts folder performs a variation of an encoding method tested.
 * They can be run as:
-* ./customDoc2Vec.py inputfilename outputfilename
-* ./spacyDoc2Vec.py inputfilename outputfilename
-* ./gensimDoc2Vec.py inputfilename outputfilename modelname
+  * ./customDoc2Vec.py inputfilename outputfilename
+  * ./spacyDoc2Vec.py inputfilename outputfilename
+  * ./gensimDoc2Vec.py inputfilename outputfilename modelname
 * For example:
-*   ./gensimDoc2Vec.py demo\_reviews.txt demo\_encoded.txt demoModel
+  * ./gensimDoc2Vec.py demo\_reviews.txt demo\_encoded.txt demoModel
 
 * The resulting data file is utilized by the Final Network Jupyter Notebook.
 
@@ -36,20 +36,20 @@ Once the prerequisites are installed, this project should not need any additiona
 
 1. Run Setup
 2. Read in the Vectors and Generate One-Hot Encodings
-* Settings
-* Authors: 3
+  * Settings
+  * Authors: 3
 3. Seperate Training/Testing Sets
 4. Setup Optional Oversampling
 5. Shuffle and Reshape
 6. Choose Network
-* Networks
-* Network 1 (CNN with regularizers)
-* Network 2 (CNN)
-* Network 3 (Dense)
+  * Networks
+  * Network 1 (CNN with regularizers)
+  * Network 2 (CNN)
+  * Network 3 (Dense)
 7. Start Training
-* Settings
-* Batch Size: 5
-* Epochs: 5
+  * Settings
+  * Batch Size: 5
+  * Epochs: 5
 8. Reshape Testing Data
 9. Start Testing
 10. Show Graphs
