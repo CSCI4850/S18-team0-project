@@ -10,7 +10,7 @@ except:
     print("usage: ./spacyDoc2Vec.py inputfile outputfile")
     sys.exit(1)
 
-# Load Spacy's word vectors
+# Load Spacy's pre-trained word vectors
 nlp = spacy.load('en_core_web_lg')
 
 f = open(in_file,'r')

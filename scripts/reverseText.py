@@ -13,6 +13,7 @@ except:
 # Reverse the Document tex for encoding
 w = open(out_file , 'a')
 f = open(in_file)
+count = 0
 for line in f:
     line = line.split('\t')
     # Split the review and remove punctuation
@@ -27,5 +28,7 @@ for line in f:
     rev = "".join(c for c in rev if c not in string.punctuation)
     w.write(line[0] + '\t' + rev.rstrip())   
     w.write('\n')
+    count += 1
+    print('[Parsed Line: ' + str(count) + ']', end='\r')
 f.close()
 w.close()
