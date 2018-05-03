@@ -19,7 +19,9 @@ d = open(out_file, 'a+')
 # Similar to customDoc2Vec
 # Sum of word vectors in review
 # Uses's spaCy's pre trained word vectors
+count = 0
 for line in f:
+    count += 1
     split = line.rstrip().split('\t',1)
     try:
         tokens = nlp(split[1])
@@ -28,7 +30,8 @@ for line in f:
     s = tokens[0].vector
     for word in tokens[1:]:
         s = np.add(s,word.vector)
-    output = str(s).replace('\n', ' ') + '\t' + split[0]
+    output = split[0] + '\t' + str(list(s)).replace('\n', ' ');
+    print('[Parsed Line: ' + str(count) + ']', end='\r')
     d.write(output)
     d.write('\n')
 f.close()
