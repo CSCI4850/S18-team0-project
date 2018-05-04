@@ -153,4 +153,4 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
 
-* [Convolutional Neural Networks for Authorship Attribution of Short Texts by Shrestha et al](http://www.aclweb.org/anthology/E17-2106) Much of the initial work was based on the work outlined there.
+* [Convolutional Neural Networks for Authorship Attribution of Short Texts by Shrestha et al](http://www.aclweb.org/anthology/E17-2106) - Much of the initial work was based on the work outlined there.
