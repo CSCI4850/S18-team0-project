@@ -113,10 +113,9 @@ Furthermore, it uses Keras running on the TensorFlow framework to construct and 
    * Settings:
      * Batch Size: 5
      * Epochs: 5
-8. Reshape Testing Data
-9. Start Testing
-10. Show Graphs
-11. Generate Predictions
+8. Start Testing
+9. Show Graphs
+10. Generate Predictions
 
 
 ## Demo
