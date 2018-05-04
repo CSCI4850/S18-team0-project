@@ -30,12 +30,12 @@ Furthermore, it uses Keras running on the TensorFlow framework to construct and 
 
 ## Preprocessing
 
-* ** Sample Data is in the [data](data/) folder:  **
+* **Sample Data is in the [data](data/) folder:**
     * [demo\_reviews.txt](data/demo_reviews.txt)
     * [demo\_reversed.txt](data/demo_reversed.txt)
 
 
-* ** It should look like this:**
+* **It should look like this:**
 
     authorID [tab] review_text
 
@@ -80,7 +80,7 @@ Furthermore, it uses Keras running on the TensorFlow framework to construct and 
     ```
     
     
-* ** Example:**
+* **Example:**
 
     ```
     #Generate your encoded documents
@@ -91,7 +91,7 @@ Furthermore, it uses Keras running on the TensorFlow framework to construct and 
 
 ## Running
 
-* ** The General Flow of our Final Network is as follows: **
+* **The General Flow of our Final Network is as follows:**
 1. Generate Data Files to Train
      ```
     #Example
@@ -120,10 +120,10 @@ Furthermore, it uses Keras running on the TensorFlow framework to construct and 
 
 
 ## Demo
-* ** To make life easy, [demo](demo/) has a full demo to show you the results of our efforts **
-* ** Before running the notebook first make sure have every pre-requisite complete **
+* **To make life easy, [demo](demo/) has a full demo to show you the results of our efforts**
+* **Before running the notebook first make sure have every pre-requisite complete**
 
-    * ** Steps: **
+    * **Steps:**
         1. Open up Jupyter Notebooks and navigate to the demo directory within this project
         2. Generate Training Files
             * For convience [demo](demo/) contains already preprocessed files. However, you may utilize the scripts mentioned in the above Preprocessing section to generate your own input files
