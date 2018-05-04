@@ -15,7 +15,7 @@ Furthermore, it uses Keras running on the TensorFlow framework to construct and 
     * In your terminal:
     ```
     >> pip3 install spacy
-    >> python -m spacy download en_core_web_lg
+    >> python3 -m spacy download en_core_web_lg
     ```
 4. Install gensim
     * In your terminal:
