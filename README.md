@@ -1,6 +1,6 @@
 # Authorship Attribution with Document Encodings and Neural Networks
 
-Need to write a decent paragraph of description about the project....
+This project uses the popular Doc2Vec and Word2Vec methods to build vocabulary models from short review texts in order to test correlation for a classification neural network. To put it more simply, neural nets, primarily convolutional nets, are trained to try to figure out what author wrote what text from standardized models used to represent the text, rather than the text itself. However, the networks are at best only able to learn a handful of distinct authors before they plateau and get stuck attributing the writing of new authors to those already learned indefinitely. This likely shows that Doc2Vec and Word2Vec-based vocabulary models, which are primarily designed for semantic analysis, are not good models for use with author attribution, which depends more on stylistic analysis. Such stylistic details are abstracted away by those models.
 
 ## Getting Started
 
@@ -78,4 +78,4 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
 
-* [Convolutional Neural Networks for Authorship Attribution of Short Texts by Shrestha et al](http://www.aclweb.org/anthology/E17-2106) Much of the initial work was based on the work outlined there.
+* [Convolutional Neural Networks for Authorship Attribution of Short Texts by Shrestha et al](http://www.aclweb.org/anthology/E17-2106) - Much of the initial work was based on the work outlined there.
